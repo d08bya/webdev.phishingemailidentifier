@@ -1,0 +1,28 @@
+Phishing Email Identifier using Fullstack 
+
+A full-stack web application that detects phishing emails using rule-based logic — no machine learning involved. This tool scans email content for suspicious patterns such as deceptive links, blacklisted domains, and phishing-related keywords.This project contibutes both Cybersecurity and Fullstack Web-development .
+
+
+##Features
+- Submit email content through a user-friendly web interface
+- Detects phishing using:
+  - Suspicious URLs and domains
+  - Blacklisted keywords
+  - Mismatched sender information
+  - HTML-based obfuscation
+- REST API for analyzing emails
+- Displays analysis results with severity indication (Safe, Warning, Phishing)
+
+
+
+### Frontend
+- HTML5, CSS3, JavaScript (or framework like React)
+
+### Backend
+- Node.js with Express.js (or Python with Flask/Django)
+
+
+
+
+
+
