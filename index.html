@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phishing Email Identifier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Phishing Email Identifier</h1>
+      <p>Paste raw email content or upload a file to analyze.</p>
+    </header>
+    <main>
+      <textarea id="emailInput" placeholder="Paste email headers & body here…"></textarea>
+      <div class="file-upload">
+        <input type="file" id="fileInput" accept=".txt, .eml" />
+        <label for="fileInput">Choose a file</label>
+      </div>
+      <button id="analyzeBtn" disabled>Analyze Email</button>
+      <div id="report" class="report"></div>
+    </main>
+<footer>
+      <p>ANALYZE AND READ</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
